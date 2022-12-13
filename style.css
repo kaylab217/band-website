@@ -1,0 +1,301 @@
+@keyframes bgcolor {
+  0% {
+    background-color: #fcfb50;
+  }
+
+  30% {
+    background-color: #f258dc;
+  }
+
+  60% {
+    background-color: #000100;
+  }
+
+  90% {
+    background-color: #df1619;
+  }
+
+  100% {
+    background-color: #14feaf;
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+h1 {
+  font-family: ANGEL FIRE;
+  font-size: 85px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 50%;
+}
+p {
+  font-family: Cy;
+  font-size: 45px;
+  color: aliceblue;
+  text-align: center;
+}
+.text1 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+
+.text2 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text3 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text4 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text5 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text7 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  text-shadow: 2px 2px black;
+}
+.text8 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.img1 {
+  size: adjust 50px;
+}
+.png {
+  align-items: center;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.col-span-2 {
+  padding-left: 7%;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbfbfb;
+  font-family: Cy;
+  text-shadow: 2px 2px black;
+  display: block;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 700px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@keyframes bgcolor {
+  0% {
+    background-color: #fcfb50;
+  }
+
+  30% {
+    background-color: #f258dc;
+  }
+
+  60% {
+    background-color: #000100;
+  }
+
+  90% {
+    background-color: #df1619;
+  }
+
+  100% {
+    background-color: #14feaf;
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.text1 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+
+.text2 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text3 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text4 {
+  font-family: ANGEL FIRE;
+  font-size: 125px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text5 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.text7 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  text-shadow: 2px 2px black;
+}
+.text8 {
+  font-family: ANGEL FIRE;
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
+.img1 {
+  size: adjust 50px;
+}
+.png {
+  align-items: center;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.col-span-2 {
+  padding-left: 7%;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbfbfb;
+  font-family: Cy;
+  text-shadow: 2px 2px black;
+  display: block;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+h1 {
+  font-family: ANGEL FIRE;
+  font-size: 85px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 7%;
+  text-shadow: 2px 2px black;
+}
