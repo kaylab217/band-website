@@ -136,6 +136,7 @@ p {
 }
 .media {
   width: 25%;
+  align-items: center;
 }
 .video {
   width: 100%;
@@ -307,4 +308,8 @@ p {
   font-size: 45px;
   color: aliceblue;
   text-align: center;
+}
+.media {
+  width: 25%;
+  align-items: center;
 }
