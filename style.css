@@ -134,6 +134,9 @@ p {
   text-shadow: 2px 2px black;
   display: block;
 }
+.media {
+  width: 25%;
+}
 .video {
   width: 100%;
   aspect-ratio: 16/9;
@@ -298,4 +301,10 @@ h1 {
   text-align: center;
   padding-top: 7%;
   text-shadow: 2px 2px black;
+}
+p {
+  font-family: Cy;
+  font-size: 45px;
+  color: aliceblue;
+  text-align: center;
 }
